@@ -1,0 +1,42 @@
+#root, html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.app {
+    height: 100%;
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+
+.card {
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  box-shadow: 5px 5px;
+}
+
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.title {
+  position: fixed;
+  top: 20px;
+  align-items:center;
+  justify-content:flex-end;
+}
